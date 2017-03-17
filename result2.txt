@@ -1,0 +1,47 @@
+MOi 13.000000
+MOi 15.000000
+CMP flag -1
+CMP flag -1
+CMP flag -1
+JLT 16
+SUB 2.000000
+JMP 4
+CMP flag 1
+CMP flag 1
+JGT 13
+SUB 11.000000
+JMP 4
+CMP flag 1
+CMP flag 1
+JGT 13
+SUB 9.000000
+JMP 4
+CMP flag 1
+CMP flag 1
+JGT 13
+SUB 7.000000
+JMP 4
+CMP flag 1
+CMP flag 1
+JGT 13
+SUB 5.000000
+JMP 4
+CMP flag 1
+CMP flag 1
+JGT 13
+SUB 3.000000
+JMP 4
+CMP flag 1
+CMP flag 1
+JGT 13
+SUB 1.000000
+JMP 4
+CMP flag -1
+CMP flag -1
+CMP flag -1
+JLT 16
+SUB 1.000000
+JMP 4
+CMP flag 0
+JEQ 11
+HLT
